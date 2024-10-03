@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: -0px;
+    
+}
+body {
+    background-color: rgb(70, 142, 236);
+    color: white;
+    font: normal 15pt Arial;
+    background-image: url(imgs/img.jpg);
+    background-repeat: no-repeat;
+    background-position:  top top;
+    background-size: cover;
+    backdrop-filter: blur(5px);
+   
+}
+main{
+    position: relative;
+    height: 100vh;
+}
+img{
+    margin-right: 10px;
+    width: 30px;
+    margin-top: 10px;
+}
+img:hover{
+    filter: drop-shadow(1px 1px 8px rgb(255, 255, 255)) ;
+   transform: translate(-2px, -2px);
+    
+
+}
+
+section#redes-sociais {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+
+  
+}
+section#not {
+    border: none;
+    display: flex;
+    background-image: url(imgs/not.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 650px;
+    width: 990px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+iframe#tela {
+    border: none;
+    width: 788px;
+    height: 441px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 244px;
+    overflow: hidden;
+} 
+

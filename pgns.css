@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    padding: 0px;
+    margin: -0px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 50;
+
+}
+img {
+    border-radius: 6px 6px 0px 0px;
+    width: 100vw;
+    border: none;
+    
+}
+::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+a{
+    background-color: blue;
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: -4px;
+    
+    
+}
+a:hover{
+    background-color: rgb(72, 111, 218);
+    
+    
+}
